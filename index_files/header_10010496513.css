@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* ----------------------------------------------------- *\
+ # Header Customize
+ ヘッダーカスタマイズの定義スタイル
+\* ----------------------------------------------------- */
+.skin-bgHeader > div {
+  /* アップロードした画像またはヘッダの高さ */
+  height: 450px;
+  /* ヘッダ画像URL */
+  background-image: url("//stat.blogskin.ameba.jp/blogskin_images/20160314/17/39/dj/p/o11200450sashihara-rino1457945458316.png");
+  /* ヘッダ画像位置 left, center right */
+  background-position: left top;
+  /* ヘッダ背景色 */
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+}
+
+/* ヘッダー hover処理 */
+.skin-bgHeader > div:hover {
+  opacity: 0.9;
+  -ms-filter: "alpha(opacity=90)";
+  filter: alpha( opacity=90 );
+}
+
+/* リンク高さ指定 */
+.skin-bgHeader > div > a {
+  height: 100%;
+}
+
+/* ブログタイトルの表示 or 非表示 */
+.skin-headerTitle {
+  display: none;
+}
